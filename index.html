@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+        <script type="text/javascript" src="./js/showModalDialog.js" ></script>
+	</head>
+	<body>
+        <script type="text/javascript">
+            function init(){
+                window.showModalDialog('./child.html','123asd','',function(val){
+                    alert(val)
+                })
+            }
+        </script>
+        <button onclick="init()">阿 牛</button>
+	</body>
+</html>
